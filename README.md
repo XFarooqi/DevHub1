@@ -44,7 +44,7 @@ It will download a **PortfolioMaker** folder in your directory. Simply open that
 **Step2:** **Login to Get Started**
 ![Portfolio](https://github.com/XFarooqi/PortfolioMaker/blob/main/website/static/DocImages/signin.png?raw=true)
 
-**Step3:** **Click on Start**
+**Step3:** **Click on Build One**
 ![Portfolio](https://github.com/XFarooqi/PortfolioMaker/blob/main/website/static/DocImages/main.png?raw=true)
 
 **Step4:** Choose a Template
