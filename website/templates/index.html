@@ -1,0 +1,13 @@
+{% extends "base.html" %} {% block title %}Home{% endblock %} {% block content
+    %}
+    <div class="container-xxl">
+        <div style="margin-top:30vh " class="p-3 mb-2 text-dark display-1 align-bottom text-xl-center">NoCodePortfolio</div><br><br> 
+        <center>
+            <a  class="btn btn-success btn-lg" href="{{url_for('display')}}" role="button">Lets Start</a>
+        </center>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+            crossorigin="anonymous"></script>
+    </div>
+    {% endblock %}
+    

@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+nav{
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #272822;
+    color: white;
+    height: 70px;
+}
+.htext img{
+    max-width: 90px;
+}
+.content{
+
+    
+    /* font-family: 'Potta One', cursive; */
+
+}
+
+.container{
+
+    width: 50vw;
+    padding: 32px 0;
+    margin: auto;
+}
+
+.logo{
+    padding: 0 2px;
+}
+
+.logo img{
+    width: 65px;
+}
+
+.toolbar-item button{
+    cursor: pointer !important;
+    color: white !important;
+    border: 1px solid white !important;
+    border-radius: 15px !important;
+    padding: 5px 14px !important;
+}
+.Heading{
+
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.s1
+{
+    color: #64bcf4;
+}
+.s2{
+    color: rgb(212, 77, 116);
+}
+.s3{
+    color: rgb(189, 221, 104);
+}
+
+
+.htext{
+    text-decoration: none;
+    color: aliceblue;
+    float: left;
+    margin-right: 100px;
+    display: inline-block;
+    color: #64bcf4;
+}
+.htext:hover{
+    transform: scale(1.05);
+}

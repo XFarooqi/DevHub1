@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Potta+One&family=Roboto:wght@100&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="prism.css">
+    <script src="prism.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>HTML Cheatsheet</title>
+</head>
+
+<body>
+
+    <nav>    
+        <div class="home">
+            <!-- <a class="htext" href="../index.html">Home</a> -->
+            <a class="htext" href="/index.html"> <img src="../img/weblogo.png" alt="Logo"/></a>
+
+        </div>
+        <div class="content center">
+            HTML Cheatsheet
+        </div>
+        <span class="logo"><img src="copy.png" alt=""></span>
+    </nav>
+    <div class="container">
+        <h1 class="Heading"><span class="s1">Basic</span> <span class="s2">HTML</span> <span class="s3">Codes</span>  </h1> <br>
+
+
+        <ol>
+            <li><b>Heading Tags:</b> This Tag is used for Headings.
+                <pre class="language-html"><code>
+&lt;h1&gt;Heading 1&lt;/h1&gt;
+&lt;h2&gt;Heading 2&lt;/h2&gt;
+&lt;h3&gt;Heading 3&lt;/h3&gt;
+&lt;h4&gt;Heading 4&lt;/h4&gt;
+&lt;h5&gt;Heading 5&lt;/h5&gt;
+&lt;h6&gt;Heading 6&lt;/h6&gt;
+                </code></pre>
+
+                <h3 class="output">Output:</h1><br>
+
+                    <h1>Heading 1</h1>
+                    <h2>Heading 2</h2>
+                    <h3>Heading 3</h3>
+                    <h4>Heading 4</h4>
+                    <h5>Heading 5</h5>
+                    <h6>Heading 6</h6>
+
+                    <br><hr><br>
+
+
+            <li><b>Paragraph Element:</b> This will be used to write a parahpargh using <HTML>
+
+                </HTML>
+                <pre class="language-html"><code>
+&lt;p>This is a paragraph.&lt;/p>
+&lt;p>This is another paragraph.&lt;/p&gt;
+                </code></pre>
+                <h4 class="output">Output:</h1>
+                    <p>This is a paragraph.I can write whatever I want!!!</p>
+                    <p>This is another paragraph.</p>
+                    <br>
+            </li>
+            <ul>
+                <li><b>pre Tag:</b> This is used to display text in orignal format </li>
+                <pre class="language-html"><code>&lt;pre&gt;
+Hello World
+
+How are you? Functionality of pre tag
+
+isn't cool?
+&lt;/pre&gt;
+</code></pre>
+<h4 class="output">Output:</h4>
+                <pre>Hello World
+
+How are you?  Functionality of pre tag
+            isn't cool?</pre>
+                <br>
+                <li><b>Break Line:</b> This is used to break a line or to create a space.
+                    <pre class="language-html"><code>&lt;br&gt; </code></pre>
+
+
+            </ul>
+            <br><hr><br>
+
+            <li><b>Image Tag</b> This tag shows how to insert an image.
+                <pre class="language-html"><code>
+&lt;img src="Destination Of Image File" alt="Alternative Message" width="500" height="600"&gt;
+
+</code></pre>
+            </li>
+            <br><hr><br>
+
+            <li><b>Anchor Tag:</b> Used to create a link to other web page.
+                <pre class="language-html"><code>
+&lt;a href="https://www.google.com" target="_blank"&gt;Google&lt;/a&gt;
+                     </code></pre>
+            </li>
+            <h4>Output:</h4>
+            <a href="https://www.google.com" target="_blank">Google</a>
+            <br><br><hr><br>
+
+
+
+
+            <li><b>IFrame Tag:</b> This is used to embed a website into your website.
+                <pre class="language-html"><code>
+&lt;iframe src="https://arfarooqi.xyz/web3.html" frameborder="0" width="730px"&gt;</iframe>    
+                </code></pre>
+                <h4>Output:</h4>
+                <iframe src="https://arfarooqi.xyz/web3.html" frameborder="0" width="730px"></iframe>
+                <br><hr><br>
+
+
+
+
+<br><br><br>
+            </li>
+
+            <li><b>Span Tag:</b> Span is an inline element where all the content will be written in a single line.
+                <pre class="language-html"><code>
+&lt;span style="background-color: steelblue; border-radius: 2;"&gt;This is Span 1&lt;/span&gt;
+&lt;span style="background-color:blueviolet;"&gt;This is Span 2&lt;/span&gt;
+                </code></pre>
+                <h4>Output:</h4>
+                <span style="background-color: steelblue; border-radius: 2;">This is Span 1</span>
+                <span style="background-color:blueviolet;">This is Span 2</span>
+
+            </li>
+            <br><hr><br>
+
+            <li><b>Div Tag</b> Div is a block element and it takes a complete block of space for itself. It means anything after the Div will come in the next block.
+                <pre class="language-html"><code>
+&lt;div style="background-color: red; border: 1px solid black;"&gt; Div1&lt;/div&gt; 
+&lt;div style="background-color: green; border: 1px solid black;"&gt; Div2&lt;/div&gt;    
+                </code></pre>
+                <h4>Output:</h4>
+                <div style="background-color: red; border: 1px solid black; margin-top: 5px;"> Div1</div> 
+                <div style="background-color: green; border: 1px solid black; margin-top: 5px;"> Div2</div>
+            </li>
+            <br><hr><br>
+
+
+            <li><b>HTML List:</b> HTML lista re basically of two types. <br>
+               <pre>1. <b>Orderd List</b> &lt;ol&gt;: This is used to represent the data in the ordered Manner </pre>  
+               <pre class="language-html"><code>
+&lt;ol&gt;
+&lt;li&gt;First Item&lt;/li&gt;
+&lt;li&gt;Second Item&lt;/li&gt;
+&lt;li&gt;Third Item&lt;/li&gt;
+&lt;li&gt;Fourth Item&lt;/li&gt;
+&lt;/ol&gt;
+            </code></pre>
+            <h4>Output:</h4>
+     <ol>
+         <li>First Item</li>
+         <li>Second Item</li>
+         <li>Third Item</li>
+         <li>Fourth Item</li>
+    </ol>
+
+                <br>
+                
+            <li><b>HTML Boilerplate:</b> This is the basic html boilerplate code
+                <pre class="language-html"><code>HTML 9 </code></pre>
+            </li>
+            <li><b>HTML Boilerplate:</b> This is the basic html boilerplate code
+                <pre class="language-html"><code>HTML 10 </code></pre>
+            </li>
+
+        </ol>
+    </div>
+</body>
+
+</html>
