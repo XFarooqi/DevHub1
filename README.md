@@ -67,6 +67,7 @@ This programme is written by X_Farooqi and I will really appreciate for any cont
 3. Writing Documentation
 4. Modifying READMe
 5. Refactoring Code
+6. Adding Portfolio Templates
 
 ## Issues
 
